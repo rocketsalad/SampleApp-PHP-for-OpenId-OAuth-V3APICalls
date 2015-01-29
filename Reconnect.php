@@ -49,6 +49,10 @@ if ($Respxml->ErrorCode != '0')
 	}
 	
 }
+else
+{
+	echo "Reconnect successful! Please update the app.config file with the new oAuth tokens.<br />";
+}
 echo "ResponseXML: ";
 var_dump( $Respxml);
 
