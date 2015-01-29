@@ -47,7 +47,7 @@ else
 echo "ResponseXML: ";
 var_dump( $Respxml);
 
-echo "<br /> <br /><a href=\"javascript:history.go(-1)\">Go Back</a>";
+echo '<br /> <br /> <a href="http://localhost/PHPSample/index.php?connectWithIntuitOpenId">Go Back</a>';
 echo '&nbsp;&nbsp;&nbsp;';
 echo '<a target="_blank" href="http://localhost/PHPSample/ReadMe.htm">Read Me</a><br />';
 
