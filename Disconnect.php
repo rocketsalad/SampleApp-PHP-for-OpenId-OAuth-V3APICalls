@@ -32,6 +32,7 @@ $Respxml = $platformService->Disconnect();
 if ($Respxml->ErrorCode == '0')
 {
 	echo "Disconnect successful! <br />";
+	session_unset();
 }
 else
 {
@@ -39,14 +40,11 @@ else
 	
 	if ($Respxml->ErrorCode  == '270')
 	{
-		echo "OAuth Token Rejected! <br />";
+		echo "OAuth Token Rejected! Recheck if you have the right OAuth tokens in the app.config file.<br />";
 	}
 	
 }
 echo "ResponseXML: ";
-var_dump( $Respxml);
-session_unset();
-
 var_dump( $Respxml);
 
 echo "<br /> <br /><a href=\"javascript:history.go(-1)\">Go Back</a>";
