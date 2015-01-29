@@ -12,12 +12,15 @@
 </head>
 <body>
 
+<a href="http://localhost/PHPSample/index.php?connectWithIntuitOpenId">Go Back</a>&nbsp;&nbsp;&nbsp;
+
 <?php
  # Add a link to allow the user to logout. The link makes a JavaScript call to intuit.ipp.anywhere.logout()
- echo '<br /><a href="javascript:void(0)" onclick="return intuit.ipp.anywhere.logout(function () { window.location.href = \'http://localhost/PHPSample/index.php\'; });">Sign Out</a>&nbsp;&nbsp;&nbsp;';
+ echo '<a href="javascript:void(0)" onclick="return intuit.ipp.anywhere.logout(function () { window.location.href = \'http://localhost/PHPSample/index.php\'; });">Sign Out</a>&nbsp;&nbsp;&nbsp;';
 ?>
 			
 <a target="_blank" href="http://localhost/PHPSample/ReadMe.htm">Read Me</a><br />
+
 <button class="myButton" style="margin-top:30px;margin-bottom:30px" title="Create an employee in QBO" onclick='createEmployee()'>Create Employee </button> <br />
 
 
