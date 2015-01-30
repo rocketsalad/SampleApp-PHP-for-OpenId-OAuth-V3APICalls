@@ -63,10 +63,11 @@ package from this [page](http://pecl.php.net/package/oauth)
 
 ## First Use Instructions
 
-1. Clone the GitHub repo to your computer
-2. Place our PHPSample folder and the downloaded v3-php-sdk-2.0.5 folder inside the web folder of the Apache web server.
-3. This sample is using the sandbox environment by default. So, you need to use the development tokens of your app for running this sample. If you want to switch to production, please make sure that you change the baseUrl in app.config file inside PHPSample folder to quickbooks.api.intuit.com from sandbox-quickbooks.api.intuit.com. Also, make sure that you configure the sample app to use prod tokens instead of development tokens.
-4. **Configuring the app tokens**: Go to your app on developer.intuit.com and copy the OAuth Consumer Key and OAuth Consumer Token from the keys tab. Add these values to the config.php file in our PHPSample folder.
+1. Clone the GitHub repo or download the zip file to your computer.
+2. Create a folder named PHPSample and copy all the files in this repository to that folder.
+3. Place the created PHPSample folder and the downloaded v3-php-sdk-2.0.5 folder inside the web folder of your Apache web server.
+4. This sample is using the sandbox environment by default. So, you need to use the development tokens of your app for running this sample. If you want to switch to production, please make sure that you change the baseUrl in app.config file inside PHPSample folder to quickbooks.api.intuit.com from sandbox-quickbooks.api.intuit.com. Also, make sure that you configure the sample app to use prod tokens instead of development tokens.
+5. **Configuring the app tokens**: Go to your app on developer.intuit.com and copy the OAuth Consumer Key and OAuth Consumer Token from the keys tab. Add these values to the config.php file in our PHPSample folder.
 
 ## Running the code
 
