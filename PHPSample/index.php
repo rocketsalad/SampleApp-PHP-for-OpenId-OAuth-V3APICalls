@@ -65,7 +65,6 @@
             echo '<br /><a href="javascript:void(0)" onclick="return intuit.ipp.anywhere.logout(function () { window.location.href = \'http://localhost/PHPSample/index.php\'; });">Sign Out</a>';
 			
 			//oAuth code
-			//Susmitha: Adding OAuth Code
 			
 					require_once('../v3-php-sdk-2.0.5/config.php');  // Default V3 PHP SDK (v2.0.1) from IPP
 					require_once(PATH_SDK_ROOT . 'Core/ServiceContext.php');
