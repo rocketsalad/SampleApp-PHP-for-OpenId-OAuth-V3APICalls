@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   require_once("./config.php");
   require_once("./CSS Styles/StyleElements.php");
 ?>
@@ -114,6 +115,7 @@
     } catch(ErrorException $e) {
         echo $e->getMessage();
     }
+    ob_end_flush();
 ?>
 <script>
 function myFunction(parameter){
