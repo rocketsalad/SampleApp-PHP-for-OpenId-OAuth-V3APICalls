@@ -1,10 +1,10 @@
 <?php
 
-require_once('../v3-php-sdk-2.0.5/config.php');
-require_once('../v3-php-sdk-2.0.5/Core/RestCalls/RestHandler.php');
-require_once('../v3-php-sdk-2.0.5/Core/RestCalls/FaultHandler.php');
-require_once('../v3-php-sdk-2.0.5/Utility/IntuitErrorHandler.php');
-
+require_once('../v3-php-sdk-2.2.0-RC/config.php');
+require_once('../v3-php-sdk-2.2.0-RC/Core/RestCalls/RestHandler.php');
+require_once('../v3-php-sdk-2.2.0-RC/Core/RestCalls/FaultHandler.php');
+require_once('../v3-php-sdk-2.2.0-RC/Utility/IntuitErrorHandler.php');
+require_once('../v3-php-sdk-2.2.0-RC/Core/OperationControlList.php');
 /**
  * RestServiceHandler contains the logic for preparing the REST request, calls REST services and returns the response.
  */

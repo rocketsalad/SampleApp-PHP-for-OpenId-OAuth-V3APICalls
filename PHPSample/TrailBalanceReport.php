@@ -8,7 +8,7 @@
 
 <?php
 
-require_once('../v3-php-sdk-2.0.5/config.php');
+require_once('../v3-php-sdk-2.2.0-RC/config.php');
 require_once(PATH_SDK_ROOT . 'Core/ServiceContext.php');
 require_once(PATH_SDK_ROOT . 'PlatformService/PlatformService.php');
 require_once(PATH_SDK_ROOT . 'Utility/Configuration/ConfigurationManager.php');
@@ -20,6 +20,7 @@ require_once(PATH_SDK_ROOT . 'Data/IntuitRestServiceDef/IPPAttachableResponse.ph
 require_once(PATH_SDK_ROOT . 'Data/IntuitRestServiceDef/IPPFault.php');
 require_once(PATH_SDK_ROOT . 'Data/IntuitRestServiceDef/IPPError.php');
 require_once('RestServiceHandler.php');
+require_once(PATH_SDK_ROOT . 'Core/OperationControlList.php');
 
 
 	
