@@ -18,7 +18,7 @@
     // end runnable specific code snipit ##########################//
     intuit.ipp.anywhere.setup({
         menuProxy: '',
-        grantUrl: 'http://'+parser.hostname+'/PHPSample/oauth.php?start=t' 
+        grantUrl: 'http://'+window.location.hostname+'/PHPSample/oauth.php?start=t' 
         // outside runnable you can point directly to the oauth.php page
     });
   </script>
